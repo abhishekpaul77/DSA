@@ -121,6 +121,7 @@ int main()
     // Collison is when two different keys are mapped to the same index of the array. To grab the theory of collision, refer to division method in hashing.
     // To avoid collision we can use separate chaining or open addressing.
     // Ordered list can have any data type as key and value but unordered_map can have only primitive data type as key.
+    
 
     return 0;
 }
