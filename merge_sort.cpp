@@ -42,6 +42,8 @@ void merge(vector<int> &v, int low, int mid, int high)
     }
 }
 
+
+
 void merge_sort(vector<int> &v, int low, int high)
 {
     int mid = (low + high) / 2;
@@ -53,6 +55,7 @@ void merge_sort(vector<int> &v, int low, int high)
     merge_sort(v, mid + 1, high);
     merge(v, low, mid, high);
 }
+
 
 int main()
 {
