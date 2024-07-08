@@ -63,7 +63,7 @@ vector<int> alternateNumbers_2(vector<int>&a) {
 
 int main()
 {
-     int n;
+    int n;
 
     cout << "Enter the number of elements: ";
     cin >> n;

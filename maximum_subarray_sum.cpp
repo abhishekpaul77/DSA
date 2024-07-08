@@ -45,7 +45,7 @@ long long maxSubarraySum_better(vector<int> arr, int n)
 
 
 int main(){
-     int n;
+    int n;
 
     cout << "Enter the number of elements: ";
     cin >> n;

@@ -55,6 +55,7 @@ int majorityElement_hashing(vector<int> v) {
 // We then iterate through the array again to count the occurrences of the candidate element.
 // If the count of the candidate element is greater than n/2, we return the candidate element as the majority element.
 // If the count of the candidate element is less than or equal to n/2, we return -1, indicating that there is no majority element.
+
 int majorityElement_BMVA(vector<int> v) {
   int n = v.size();
   int el = v[0];
